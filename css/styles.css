@@ -24,6 +24,9 @@ ul {
     list-style: none;
 }
 
+address {
+    font-style: normal;
+}
 
 /* header */
 
@@ -52,8 +55,8 @@ color: var(--accent-color);
 .nav-link:focus,
 .header-link:hover,
 .header-link:focus,
-.footer-adress-link:hover,
-.footer-adress-link:focus {
+.footer-address-link:hover,
+.footer-address-link:focus {
     color: var(--accent-color);
 }
 /* hero */
@@ -128,18 +131,14 @@ color: var(--white-text-color);
 .footer {
     background-color: var(--bg-footer-color);
 }
-.footer .footer-adress-link {
-    font-style: normal;
-}
 
-.footer-adress-link.adress-link-map {
+.footer-address-link.address-link-map {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--white-text-color);
 }
-.footer-adress-link {
-    font-size: 14px;
+.footer-address-link {
     line-height: 1.71;
     letter-spacing: 0.03em; 
     color: rgba(255, 255, 255, 0.6);
